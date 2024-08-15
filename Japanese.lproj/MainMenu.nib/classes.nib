@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                destSelectClicked = id; 
+                openMenuSelected = id; 
+                prefCancelClicked = id; 
+                prefMenuSelected = id; 
+                prefOkClicked = id; 
+                stopClicked = id; 
+            }; 
+            CLASS = DropUnLHa; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                destRadio = id; 
+                destText = id; 
+                extItemText = id; 
+                noCreateFolderToggle = id; 
+                noQuitToggle = id; 
+                prefWindow = id; 
+                remCountText = id; 
+                taskIndicator = id; 
+                taskWindow = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

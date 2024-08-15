@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>lzh</string>
+				<string>LZH</string>
+				<string>lha</string>
+				<string>LHA</string>
+				<string>lzs</string>
+				<string>LZS</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>lzh</string>
+			<key>CFBundleTypeName</key>
+			<string>LHa Archive</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>DropUnLHa</string>
+	<key>CFBundleGetInfoString</key>
+	<string>DropUnLHa 1.3.8, © 2001-2016 Hiroto Sakai</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>DropUnLHa Help</string>
+	<key>CFBundleIconFile</key>
+	<string>DropUnLHa</string>
+	<key>CFBundleIdentifier</key>
+	<string>jp.gr.fan.sakai.DropUnLHa</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>DropUnLHa</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.8</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.8</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

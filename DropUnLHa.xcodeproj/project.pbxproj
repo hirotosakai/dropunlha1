@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68721FD51D91854D00F3C054 /* DropUnLHa_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* DropUnLHa_Prefix.h */; };
+		68721FD61D91854D00F3C054 /* DropUnLHa.h in Headers */ = {isa = PBXBuildFile; fileRef = 68282DA2045E4C0500A80081 /* DropUnLHa.h */; };
+		68721FD71D91854D00F3C054 /* AMShellWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 688853A3070513D500364645 /* AMShellWrapper.h */; };
+		68721FD91D91854D00F3C054 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		68721FDA1D91854D00F3C054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		68721FDB1D91854D00F3C054 /* lha in Resources */ = {isa = PBXBuildFile; fileRef = 68282DA6045E4C1000A80081 /* lha */; };
+		68721FDC1D91854D00F3C054 /* lzh.icns in Resources */ = {isa = PBXBuildFile; fileRef = 68282DA7045E4C1000A80081 /* lzh.icns */; };
+		68721FDD1D91854D00F3C054 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 68282DAA045E4C1900A80081 /* Credits.rtf */; };
+		68721FDE1D91854D00F3C054 /* DropUnLHa.icns in Resources */ = {isa = PBXBuildFile; fileRef = 68282DAB045E4C1900A80081 /* DropUnLHa.icns */; };
+		68721FDF1D91854D00F3C054 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68282DAE045E4C2700A80081 /* Localizable.strings */; };
+		68721FE01D91854D00F3C054 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 68D6DD26054A72C800F62B8A /* Help */; };
+		68721FE21D91854D00F3C054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		68721FE31D91854D00F3C054 /* DropUnLHa.m in Sources */ = {isa = PBXBuildFile; fileRef = 68282DA3045E4C0500A80081 /* DropUnLHa.m */; };
+		68721FE41D91854D00F3C054 /* AMShellWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 688853A2070513D500364645 /* AMShellWrapper.m */; };
+		68721FE61D91854D00F3C054 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		68721FEC1D91854D00F3C054 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		68721FED1D91854D00F3C054 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		68721FEE1D91854D00F3C054 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* DropUnLHa_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropUnLHa_Prefix.h; sourceTree = "<group>"; };
+		68282DA2045E4C0500A80081 /* DropUnLHa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DropUnLHa.h; sourceTree = "<group>"; };
+		68282DA3045E4C0500A80081 /* DropUnLHa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DropUnLHa.m; sourceTree = "<group>"; };
+		68282DA6045E4C1000A80081 /* lha */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lha; sourceTree = "<group>"; };
+		68282DA7045E4C1000A80081 /* lzh.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lzh.icns; sourceTree = "<group>"; };
+		68282DAA045E4C1900A80081 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		68282DAB045E4C1900A80081 /* DropUnLHa.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DropUnLHa.icns; sourceTree = "<group>"; };
+		68282DAF045E4C2700A80081 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68282DB1045E4C3200A80081 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68282DB2045E4C3200A80081 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68282DB7045E716C00A80081 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		68721FEB1D91854D00F3C054 /* Info-DropUnLHa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Info-DropUnLHa.plist"; sourceTree = "<group>"; };
+		68721FEF1D91854D00F3C054 /* DropUnLHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropUnLHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		688853A2070513D500364645 /* AMShellWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMShellWrapper.m; sourceTree = "<group>"; };
+		688853A3070513D500364645 /* AMShellWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMShellWrapper.h; sourceTree = "<group>"; };
+		68D6DD27054A72C800F62B8A /* English */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = English; path = English.lproj/Help; sourceTree = "<group>"; };
+		68D6DD2E054A72D500F62B8A /* Japanese */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Japanese; path = Japanese.lproj/Help; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68721FE51D91854D00F3C054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68721FE61D91854D00F3C054 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				688853A3070513D500364645 /* AMShellWrapper.h */,
+				688853A2070513D500364645 /* AMShellWrapper.m */,
+				68282DA2045E4C0500A80081 /* DropUnLHa.h */,
+				68282DA3045E4C0500A80081 /* DropUnLHa.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68721FEF1D91854D00F3C054 /* DropUnLHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DropUnLHa */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				68721FEB1D91854D00F3C054 /* Info-DropUnLHa.plist */,
+			);
+			name = DropUnLHa;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DropUnLHa_Prefix.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68D6DD26054A72C800F62B8A /* Help */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				68282DAE045E4C2700A80081 /* Localizable.strings */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				68282DAA045E4C1900A80081 /* Credits.rtf */,
+				68282DAB045E4C1900A80081 /* DropUnLHa.icns */,
+				68282DA7045E4C1000A80081 /* lzh.icns */,
+				68282DA6045E4C1000A80081 /* lha */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68721FD41D91854D00F3C054 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68721FD51D91854D00F3C054 /* DropUnLHa_Prefix.h in Headers */,
+				68721FD61D91854D00F3C054 /* DropUnLHa.h in Headers */,
+				68721FD71D91854D00F3C054 /* AMShellWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68721FD31D91854D00F3C054 /* DropUnLHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68721FE71D91854D00F3C054 /* Build configuration list for PBXNativeTarget "DropUnLHa" */;
+			buildPhases = (
+				68721FD41D91854D00F3C054 /* Headers */,
+				68721FD81D91854D00F3C054 /* Resources */,
+				68721FE11D91854D00F3C054 /* Sources */,
+				68721FE51D91854D00F3C054 /* Frameworks */,
+			);
+			buildRules = (
+				68721FEC1D91854D00F3C054 /* PBXBuildRule */,
+				68721FED1D91854D00F3C054 /* PBXBuildRule */,
+				68721FEE1D91854D00F3C054 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = DropUnLHa;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DropUnLHa;
+			productReference = 68721FEF1D91854D00F3C054 /* DropUnLHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 68721FF21D91854D00F3C054 /* Build configuration list for PBXProject "DropUnLHa" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DropUnLHa */;
+			projectDirPath = "";
+			targets = (
+				68721FD31D91854D00F3C054 /* DropUnLHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68721FD81D91854D00F3C054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68721FD91D91854D00F3C054 /* MainMenu.nib in Resources */,
+				68721FDA1D91854D00F3C054 /* InfoPlist.strings in Resources */,
+				68721FDB1D91854D00F3C054 /* lha in Resources */,
+				68721FDC1D91854D00F3C054 /* lzh.icns in Resources */,
+				68721FDD1D91854D00F3C054 /* Credits.rtf in Resources */,
+				68721FDE1D91854D00F3C054 /* DropUnLHa.icns in Resources */,
+				68721FDF1D91854D00F3C054 /* Localizable.strings in Resources */,
+				68721FE01D91854D00F3C054 /* Help in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68721FE11D91854D00F3C054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68721FE21D91854D00F3C054 /* main.m in Sources */,
+				68721FE31D91854D00F3C054 /* DropUnLHa.m in Sources */,
+				68721FE41D91854D00F3C054 /* AMShellWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				68282DB1045E4C3200A80081 /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				68282DB7045E716C00A80081 /* Japanese */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		68282DAE045E4C2700A80081 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68282DAF045E4C2700A80081 /* English */,
+				68282DB2045E4C3200A80081 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		68D6DD26054A72C800F62B8A /* Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D6DD27054A72C800F62B8A /* English */,
+				68D6DD2E054A72D500F62B8A /* Japanese */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68721FE81D91854D00F3C054 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DropUnLHa_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-DropUnLHa.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = DropUnLHa;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		68721FE91D91854D00F3C054 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DropUnLHa_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-DropUnLHa.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = DropUnLHa;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		68721FEA1D91854D00F3C054 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = "/usr/bin/gcc-3.3";
+				CPLUSPLUS = "/usr/bin/g++-3.3";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DropUnLHa_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-DropUnLHa.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = DropUnLHa;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		68721FF31D91854D00F3C054 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"$(inherited)",
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Development;
+		};
+		68721FF41D91854D00F3C054 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				GCC_MODEL_TUNING = "";
+				SDKROOT = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Deployment;
+		};
+		68721FF51D91854D00F3C054 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				GCC_MODEL_TUNING = "";
+				SDKROOT = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68721FE71D91854D00F3C054 /* Build configuration list for PBXNativeTarget "DropUnLHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68721FE81D91854D00F3C054 /* Development */,
+				68721FE91D91854D00F3C054 /* Deployment */,
+				68721FEA1D91854D00F3C054 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		68721FF21D91854D00F3C054 /* Build configuration list for PBXProject "DropUnLHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68721FF31D91854D00F3C054 /* Development */,
+				68721FF41D91854D00F3C054 /* Deployment */,
+				68721FF51D91854D00F3C054 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
